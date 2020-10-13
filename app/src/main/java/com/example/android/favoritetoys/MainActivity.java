@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         // TODO (5) Loop through each toy and append the name to the TextView (add \n for spacing)
         String concatString = "";
         for(int i = 0; i < toysArray.length; i++){
-            concatString = concatString + toysArray[i] + "\n";
+            concatString = concatString + toysArray[i] + "\n\n\n";
         }
         mToysListTextView.setText(concatString);
     }
